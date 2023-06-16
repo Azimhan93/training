@@ -1,0 +1,107 @@
+.Article {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.Article-container {
+    display: flex;
+    margin: 0 20px;
+    background-color: black;
+}
+
+.Article-text {
+    padding: 10px 10px;
+    width: 35%;
+}
+
+.Article-text p {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.Article-image {
+    width: 65%;
+    object-fit: scale-down;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+.Article-span {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: black;
+}
+
+span {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: #cf1b1b;
+    font-size: 124px;
+    letter-spacing: 8px;
+    cursor: pointer;
+}
+  
+span::before {
+    content: "WELCOME";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent 0,
+      transparent 2px,
+      white 2px,
+      white 4px
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
+    transition: 1s;
+}
+  
+span::after {
+    content: "WELCOME";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      135deg,
+      transparent 0,
+      transparent 2px,
+      rgb(255, 255, 255) 2px,
+      rgb(255, 255, 255) 4px
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    top: -10px;
+    left: -10px;
+    transition: 1s;
+}
+  
+span:hover:before {
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+  
+span:hover:after {
+    top: -10px;
+    left: -10px;
+    color: black;
+} 
+
+  
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+.Social {
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Social h2 {
+    font-size: 56px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: red;
+} 
+
+.Social-Items {
+    display: flex;
+    justify-content: space-around;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+.Social  {
+    background-image: url('https://rare-gallery.com/uploads/posts/582432-night-sky-windows.jpg');
+    background-size: cover;
+        -webkit-animation: slide 100s;
+        animation: slide 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slide {
+    from {background-position: top; background-size:3000px; }
+    to {background-position: center; background-size:2750px;}
+}
+
+@keyframes slide {
+    from {background-position: top; background-size:3000px; }
+    to {background-position: -100px 0px; background-size:2750px;}
+}
+

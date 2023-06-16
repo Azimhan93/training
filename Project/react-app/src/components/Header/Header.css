@@ -1,0 +1,40 @@
+.Header-item {
+    position: relative;
+}
+
+.nintendo {
+    position: absolute;
+}
+
+.netflix {
+    position: absolute;
+    right: 0;
+}
+
+.Header-item h1 {
+    padding-top: 40px;
+    background-color: black;
+    text-align: center;
+    font-size: 54px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #ff0015, #db113d);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 2px rgb(248, 4, 4), 0 0 1em rgb(233, 191, 7), 0 0 0.2em rgb(0, 0, 0);
+}
+
+.Header-item h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #ff0015, #db113d);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 2px rgb(248, 4, 4), 0 0 1em rgb(233, 191, 7), 0 0 0.2em rgb(0, 0, 0);
+}

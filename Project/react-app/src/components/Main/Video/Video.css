@@ -1,0 +1,67 @@
+.Video {
+    padding: 20px 20px;
+    position: relative;
+    background: url('./back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.gameOfThrones {
+    position: absolute;
+}
+
+.colombia {
+    position: absolute;
+}
+
+.Video-item h3 {
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    font-family: initial;
+} 
+
+.Video-item_video p {
+    color: red;
+    font-style: italic;
+}
+
+.Video-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.Video-text-container h2{
+    margin: 0;
+    font-size: 75px;
+    font-family: fantasy;
+    font-style: italic;
+    color: rgba(225,225,225, .01);
+    background-image: url("https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk3MzM3ODU4NTU2NTY4Nzc1/marveldisney.jpg");
+    background-repeat: repeat;
+    -webkit-background-clip:text;
+    background-clip: text;
+    animation: animate 15s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+ 
+@keyframes animate {
+      0%, 100% {
+        background-position: left top;
+      }
+      25%{
+        background-position: right bottom;
+       }
+      50% {
+        background-position: left bottom;
+      }
+      75% {
+        background-position: right top;
+      }   
+}
+
+
