@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./index.js" type="module"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>My list of users</h1>
+            <ul id="list"></ul>
+
+            <form id="form">
+                <input id="inputId" type="hidden"/>
+                <input id="postInput" name="post" type="text" placeholder="Enter your task please" />
+                <button id="btn">Submit</button>
+            </form>
+            
+
+            <script id="postItemTemplate" type="text/template">
+                    <li data-id='{{id}}' data-status='{{status}}' data-name='{{name}}' class="postItem {{done}}">
+                        <span class="spanEl">{{name}}</span>
+                        <button class ="deleteBtn">Delete</button>
+                        <button class ="editBtn">Edit</button>
+                    </li>
+            </script>
+        </div>
+    </body>
+</html>

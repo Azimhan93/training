@@ -1,0 +1,110 @@
+body {
+    background-image: url('./img/fantasy_image.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.done .spanEl{
+    color: red;
+    text-decoration: line-through;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-family: "Rubik Vinyl", sans-serif;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(rgb(43, 24, 218), rgb(211, 198, 16));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#form {
+    text-align: center;
+}
+
+#list {
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.postItem {
+    border: 1px solid rgb(31, 221, 57);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 4px;
+    color: #1d0fe6;
+}
+
+.postItem span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.postItem:hover {
+    transition: 2s;
+    background-color: rgb(233, 233, 22);
+}
+
+.deleteBtn {
+    color: #ffffff;
+    font-weight: 700;
+    border: 1px solid #d61212;
+    border-radius: 11px;
+    background-color: #d61212;
+    margin-left: 15px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    color: #d61212;
+    background-color: #FEE0E0;
+}
+
+.editBtn {
+    color: #ffffff;
+    border: 1px solid #1226d4;
+    font-weight: 700;
+    border-radius: 11px;
+    background-color: #1226d4;
+    margin-left: 15px;
+    padding: 5px 24px;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    color: #1226d4;
+    background-color: #2cd35e;
+}
+
+#btn {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px 45px;
+    cursor: pointer;
+    border: 2px solid rgb(31, 221, 57);
+    border-radius: 10px;
+    color: #1d0fe6;
+}
+
+#btn:hover {
+    transition: 1s;
+    color: white;
+    background: rgb(50, 31, 221);
+}
+
+#postInput {
+    padding: 6px 100px;
+    font-size: 18px;
+    border: 2px solid rgb(31, 221, 57);
+    border-radius: 10px;
+    color: rgb(50, 31, 221);
+}
+
+
+
+
